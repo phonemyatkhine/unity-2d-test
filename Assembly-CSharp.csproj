@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <Compile Include="Assets\reee.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\CombatScript.cs" />
+     <Compile Include="Assets\Scripts\FootmanScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -693,6 +695,14 @@
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
       <Project>{b94abc63-1048-dd6a-66f8-3cad87e34561}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{87a4c5e5-9066-1c06-686b-ed74c81c8e66}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{1053e0e8-cacc-5381-3916-f95f4693e004}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{a3442410-0f17-a6bf-fa80-f169d39545c0}</Project>
